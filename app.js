@@ -12,6 +12,7 @@ let formulario = document.querySelector (".formContacto")
 let botonBorrar = document.querySelector (".botonBorrar")
 let botonUltimo = document.querySelector (".botonUltimo")
 let catalogo = document.querySelector (".catalogo") 
+let prueba = prueba
 
 // Arrays
 let listaAgregados = []
