@@ -30,6 +30,22 @@
     {
         "nombre": "Sorrentinos",
         "precio": 900
+    },
+    {
+        "nombre": "Bife de Chorizo",
+        "precio": 1050
+    },
+    {
+        "nombre": "Cerveza 1L",
+        "precio": 600
+    },
+    {
+        "nombre": "Gaseosa",
+        "precio": 500
+    },
+    {
+        "nombre": "Agua",
+        "precio": 300
     }
 
 ]
