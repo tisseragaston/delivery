@@ -46,10 +46,6 @@
     {
         "nombre": "Agua",
         "precio": 300
-    },
-    {
-        "nombre": "Soda",
-        "precio": 300
     }
 
 ]
