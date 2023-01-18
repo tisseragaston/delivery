@@ -25,8 +25,8 @@ const titulo = document.querySelector (".card-title")
 const precio = document.querySelector (".card-text")
 
 try {fetch("https://tisseragaston.github.io/Delivery/data.json")
-    .then((resp)=> resp.json())
-    .then ((datos) => {
+        .then((resp)=> resp.json())
+        .then ((datos) => {
         let contador = 0
         while (datos.length > contador) {
             let container = document.createElement ('div')
@@ -169,8 +169,8 @@ const mostrarInfo = formulario.addEventListener ("submit", function (e) {
   </div> `
     Swal.fire({
     icon: 'success',
-    title: `Muchas gracias ${nombreInput.value} por enviarnos tu información`,
-    text: `Te vamos a llamar al numero ${telefonoInput.value} para coordinar el envío de tu pedido`,
+    title: `${nombreInput.value} muchas gracias por su commpra!`,
+    text: `Le vamos a llamar al numero ${telefonoInput.value} para coordinar el envío de su pedido`,
   })}
 })  
 // Boton Confirmar
