@@ -24,7 +24,7 @@ const producto = document.querySelector (".card-body")
 const titulo = document.querySelector (".card-title")
 const precio = document.querySelector (".card-text")
 
-try {fetch("data.json")
+try {fetch("https://tisseragaston.github.io/Delivery/data.json")
     .then((resp)=> resp.json())
     .then ((datos) => {
         let contador = 0
